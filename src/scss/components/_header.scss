@@ -17,7 +17,7 @@ header {
     .nav__items {
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 24px;
       transition: 0.3s linear;
       .nav__link {
         font-family: sans-serif;
@@ -26,6 +26,12 @@ header {
         line-height: 24px;
         text-align: left;
         color: #394149;
+        .nav__icons {
+          display: none;
+          svg {
+            font-size: 28px;
+          }
+        }
         &.active {
           color: red;
         }
@@ -41,7 +47,7 @@ header {
         padding: 10px 1px;
         border-radius: 31px;
         .nav__link__btn {
-          padding: 10px 25px;
+          padding: 10px;
         }
       }
     }
@@ -73,14 +79,34 @@ header {
         left: 0;
         right: 0;
         // opacity: 0.92;
+        border-radius: 28px 28px 0 0;
+        border-top: 1px solid #eee;
 
-        &.show {
-          top: 55px;
-        }
+        // &.show {
+        //   top: 55px;
+        // }
       }
       .menu {
         display: block;
         padding-right: 20px;
+      }
+    }
+  }
+  @media only screen and (max-width: 549px) {
+    nav {
+      .nav__items {
+        padding: 0;
+        .nav__link {
+          .nav_link {
+            display: none;
+          }
+          .nav__icons {
+            display: block;
+          }
+        }
+        .nav__btn {
+          padding: 3px 0;
+        }
       }
     }
   }

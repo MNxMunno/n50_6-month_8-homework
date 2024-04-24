@@ -2,8 +2,10 @@
 import React from "react";
 import Product from "../../static/product/Product";
 import Banner from "../../static/banner/Banner.jsx";
-import Products from "../../router/products/Products.jsx";
+// eslint-disable-next-line no-unused-vars
+// import Products from "../../router/products/Products.jsx";
 
+// eslint-disable-next-line no-unused-vars
 const Main = (data, bg, card) => {
   return (
     <main style={bg}>
