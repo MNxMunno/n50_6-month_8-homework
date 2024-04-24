@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 69px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pro {
+  display: none;
+}
+
+@import "./pages/about/about";
+@import "./pages/blog/blog";
+@import "./pages/careers/careers";
+@import "./pages/home/home";
+@import "./pages/services/services";
+@import "./pages/products/products";
+@import "./components/NotFound";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./static/navLink";
+@import "./static/product";
+@import "./static/btn";
+@import "./static/banner";
