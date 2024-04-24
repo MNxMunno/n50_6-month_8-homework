@@ -4,6 +4,7 @@ import Main from "../../components/main/Main";
 
 const Blog = () => {
   const data = {
+    page: "Blog",
     img: "https://i.postimg.cc/sDQ1JFkw/blog-hero.png",
     title: "Our internal process and longerm vision",
     description:

@@ -4,6 +4,7 @@ import Main from "../../components/main/Main";
 
 const Services = () => {
   const data = {
+    page: "Services",
     img: "https://i.postimg.cc/tRFMn7T5/services-hero.png",
     title: "We serve clients with ground breaking solutions",
     description:

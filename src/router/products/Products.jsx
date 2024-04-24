@@ -31,6 +31,7 @@ const Products = () => {
   ));
 
   const data = {
+    page: "Products",
     img: "https://i.postimg.cc/mDmQDZmD/product-hero.png",
     title: "Our internal process and longerm vision",
     description:

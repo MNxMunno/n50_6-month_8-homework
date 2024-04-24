@@ -4,6 +4,7 @@ import Main from "../../components/main/Main";
 
 const About = () => {
   const data = {
+    page: "About",
     img: "https://i.postimg.cc/1XM00kb9/about-hero.png",
     title:
       "We value human, organizational, and operational intelligence, not just artificial",

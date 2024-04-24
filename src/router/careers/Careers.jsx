@@ -4,6 +4,7 @@ import Main from "../../components/main/Main";
 
 const Careers = () => {
   const data = {
+    page: "Careers",
     img: "https://i.postimg.cc/QC65KpWC/careers-hero.png",
     title: "We hired people who are very passionate about what they do",
     description:

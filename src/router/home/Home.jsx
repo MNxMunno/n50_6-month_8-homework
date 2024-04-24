@@ -5,6 +5,7 @@ import Banner from "../../static/banner/Banner";
 
 const Home = () => {
   const data = {
+    page: "Home",
     img: "https://i.postimg.cc/764kGWhb/home-hero.png",
     title: "Prosper with our bespoke solutions",
     description:
