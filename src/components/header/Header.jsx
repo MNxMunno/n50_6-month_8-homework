@@ -34,7 +34,7 @@ const Header = () => {
               Blog
             </NavLink>
             <button className="nav__btn">
-              <NavLink className="nav__link__btn" to={"/product"}>
+              <NavLink className="nav__link nav__link__btn" to={"/product"}>
                 Products
               </NavLink>
             </button>
